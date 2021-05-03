@@ -5,10 +5,10 @@ import pyscreenshot as ImageGrab
 import cv2
 import numpy as np
 
-mine = ['mine2.png', 'mine3.png']
-claim = ['claim4.png', 'claim5.png', 'claim6.png']
-approve = ['approve.png']
-hub = ['hub3.png', 'hub4.png']
+mine = ['data/mine2.png', 'data/mine3.png']
+claim = ['data/claim4.png', 'data/claim5.png', 'data/claim6.png']
+approve = ['data/approve.png']
+hub = ['data/hub3.png', 'data/hub4.png']
 
 def click(img_list):
     for img in img_list:
